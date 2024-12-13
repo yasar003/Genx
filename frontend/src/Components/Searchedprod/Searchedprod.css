@@ -1,0 +1,48 @@
+.custom-slider .rc-slider-track {
+  background-color: #00eeff;
+  height: 5px;
+}
+.custom-slider .rc-slider-handle {
+  background-color: #0066ff;
+  border: none;
+  width: 25px;
+  height: 25px;
+  margin-top: -10px;
+  transition: background-color 0.3s;
+}
+.custom-slider .rc-slider-handle:hover {
+  background-color: #0056b3;
+}
+.price-header {
+  font-weight: bold;
+  color: #343a40;
+  margin-bottom: 10px;
+}
+.slider-values {
+  display: flex;
+  justify-content: flex-start;
+  padding: 0px 5px;
+  margin-bottom: 10px;
+}
+.value {
+  margin: 0px 5px;
+}
+.main-container {
+  margin: 0px;
+  width: 100%;
+}
+.yas {
+  width: 15%;
+}
+.product-container {
+  width: 100%;
+}
+.side_con {
+  display: flex;
+}
+
+@media (max-width: 600px) {
+  .sidebar {
+    display: none;
+  }
+}

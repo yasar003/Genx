@@ -1,0 +1,23 @@
+/* Styles specific to the Register component */
+.container {
+  margin-top: 100px;
+}
+
+#register_button {
+  background-color: #007bff;
+  border: none;
+}
+
+/* Disable hover effect for register button only */
+#register_button:hover {
+  background-color: #007bff !important;
+}
+
+.avatar img {
+  width: 50px;
+  height: 50px;
+}
+
+.custom-file-input {
+  cursor: pointer;
+}

@@ -1,0 +1,71 @@
+/* Order Details Section */
+[id^="order-details-"] {
+  background-color: #f9f9f9;
+  padding: 20px;
+  border-radius: 8px;
+  margin-bottom: 20px;
+}
+
+[id^="order-id-"] {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+[id^="shipping-info-"] {
+  font-size: 1.2rem;
+  color: #333;
+}
+
+[id^="shipping-name-"],
+[id^="shipping-phone-"],
+[id^="shipping-address-"],
+[id^="total-amount-"] {
+  font-size: 1rem;
+  margin: 5px 0;
+}
+
+[id^="payment-status-title-"],
+[id^="order-status-title-"],
+[id^="order-items-title-"] {
+  font-size: 1.2rem;
+  font-weight: bold;
+  margin-top: 20px;
+}
+
+[id^="payment-status-"],
+[id^="order-status-"] {
+  font-size: 1.1rem;
+  margin: 10px 0;
+}
+
+.greenColor {
+  color: green;
+}
+
+.redColor {
+  color: red;
+}
+
+[id^="cart-items-"] {
+  border-top: 1px solid #ddd;
+  margin-top: 15px;
+}
+
+[id^="order-item-"] {
+  padding: 10px 0;
+  border-bottom: 1px solid #ddd;
+}
+
+[id^="item-image-"] img {
+  max-width: 100%;
+}
+
+[id^="item-name-"] a {
+  text-decoration: none;
+  color: #333;
+}
+
+[id^="item-price-"],
+[id^="item-quantity-"] {
+  font-size: 1rem;
+}

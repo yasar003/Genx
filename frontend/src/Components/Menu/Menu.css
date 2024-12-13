@@ -1,0 +1,36 @@
+.button-container {
+  display: flex;
+  width: 100%;
+  margin-bottom: 5px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  height: 30px;
+  overflow-x: auto;
+}
+
+.menu_btn {
+  padding: 2px 20px;
+  cursor: pointer;
+  background-color: #0e0c0d;
+  color: white;
+  text-align: center;
+  font-size: 16px;
+  font-weight: bold;
+  border: none;
+  flex-grow: 1;
+}
+.menu_btn:hover {
+  border: 1px solid white;
+  border-radius: 10px;
+}
+@media screen and (max-width: 450px) {
+  .button-container {
+    display: flex;
+    justify-content: start;
+    width: 100%;
+    overflow-x: auto;
+    border: none;
+    padding-right: 10px;
+    background-color: black;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  }
+}

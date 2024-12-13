@@ -1,0 +1,70 @@
+/* General layout */
+#updatepro-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start; /* Align items to the start vertically */
+  min-height: 100vh;
+  padding: 20px;
+}
+
+#updatepro-form {
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+  background-color: #fff;
+  max-width: 500px; /* Limit the form width */
+  width: 100%; /* Ensure form takes full width within the container */
+}
+
+/* Input Fields */
+#updatepro-name,
+#updatepro-email {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+#updatepro-file-label {
+  border: 1px solid #ccc;
+  padding: 8px;
+  cursor: pointer;
+  border-radius: 5px;
+  background-color: #f8f8f8;
+  width: 100%;
+  text-align: center;
+  margin-top: 10px;
+}
+
+/* Button */
+#updatepro-btn {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background-color 0.3s;
+}
+
+#updatepro-btn:hover {
+  background-color: #0056b3;
+}
+
+/* Responsive styling */
+@media (max-width: 768px) {
+  #updatepro-avatar {
+    width: 60px;
+    height: 60px;
+  }
+
+  #updatepro-form {
+    padding: 20px;
+  }
+
+  #updatepro-file-label {
+    padding: 10px;
+  }
+}

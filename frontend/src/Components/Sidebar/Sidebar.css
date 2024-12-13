@@ -1,0 +1,39 @@
+.sidebar {
+  width: 200px;
+  padding: 10px;
+  background-color: #e1e4e7;
+  border-right: 1px solid #bdc1c4;
+}
+.brand-container {
+  display: flex;
+  flex-direction: column;
+  gap: 3px; /* Spacing between radio buttons */
+}
+
+.brand-btn {
+  margin-right: 5px; /* Space between radio button and label */
+}
+
+label {
+  cursor: pointer; /* Makes the label clickable */
+  font-size: 16px;
+}
+
+input[type="radio"] {
+  accent-color: #2f95de;
+}
+.star-rating {
+  display: inline-flex;
+  cursor: pointer;
+}
+
+.star {
+  font-size: 24px;
+  color: #ccc;
+  padding: 0 5px;
+  transition: color 0.2s;
+}
+
+.star.selected {
+  color: rgb(239, 23, 196);
+}

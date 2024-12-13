@@ -1,0 +1,52 @@
+.user-info {
+  padding: 20px;
+  width: 700px;
+  background-color: rgb(207, 207, 207);
+}
+.profile-con {
+  width: auto;
+  display: flex;
+  justify-content: center;
+}
+.avatar-profile {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.avatar-profile img {
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+}
+
+#edit_profile {
+  display: block;
+  margin: 0 auto;
+}
+
+h4 {
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+p {
+  font-size: 16px;
+  margin-bottom: 15px;
+}
+
+.btn-block {
+  width: 100%;
+}
+
+.btn {
+  font-size: 16px;
+  padding: 10px;
+}
+
+.mt-5 {
+  margin-top: 3rem;
+}
+
+.mt-3 {
+  margin-top: 1.5rem;
+}

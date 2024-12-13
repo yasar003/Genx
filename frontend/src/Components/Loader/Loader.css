@@ -1,0 +1,61 @@
+/* Center the loader container with a fixed height */
+.loader-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 400px; /* Fixed container height */
+  background-color: #f9f9f9; /* Background color */
+  margin: 0;
+}
+
+/* Loader Styles */
+.loader {
+  position: relative;
+  width: 40px; /* Width of the loader */
+  height: 40px; /* Height of the loader */
+}
+
+/* Outer Rotating Ring */
+.outer-ring {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  border: 4px solid transparent; /* Thinner border */
+  border-radius: 50%;
+  border-top-color: #3498db; /* Blue color for outer ring */
+  animation: rotate 1s linear infinite; /* Faster rotation */
+}
+
+/* Inner Circle */
+.inner-circle {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 24px; /* Width of the inner circle */
+  height: 24px; /* Height of the inner circle */
+  background: linear-gradient(45deg, #3498db, #ffffff);
+  border-radius: 50%;
+  transform: translate(-50%, -50%);
+  background-size: 200% 200%;
+  animation: gradient-spin 1.5s linear infinite; /* Slightly slower gradient */
+}
+
+/* Rotation Animation */
+@keyframes rotate {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+/* Gradient Animation */
+@keyframes gradient-spin {
+  0% {
+    background-position: 0% 0%;
+  }
+  100% {
+    background-position: 100% 100%;
+  }
+}

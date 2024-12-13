@@ -1,0 +1,102 @@
+/* General container with margin */
+.login-container {
+  margin-top: 100px;
+}
+
+/* Modern form box */
+.login-form {
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+/* Title and description for the form */
+.login-title {
+  font-size: 28px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.login-description {
+  font-size: 16px;
+  color: #6c757d;
+  margin-bottom: 20px;
+}
+
+/* Input field styling */
+.login-input {
+  border-radius: 6px;
+  padding: 10px;
+  border: 1px solid #ced4da;
+  font-size: 16px;
+}
+
+/* Focus effect for input fields */
+.login-input:focus {
+  border-color: #007bff;
+  box-shadow: none;
+}
+
+/* Login button with modern flat design */
+.login-button {
+  background-color: #007bff;
+  color: #fff;
+  padding: 10px;
+  font-size: 18px;
+  border: none;
+  border-radius: 6px;
+  transition: background-color 0.3s ease;
+}
+
+/* Button hover and disabled state */
+.login-button:hover {
+  background-color: #0056b3;
+}
+
+.login-button:disabled {
+  background-color: #ccc;
+  cursor: not-allowed;
+}
+
+/* Link styles */
+.text-muted {
+  color: #6c757d;
+}
+
+.text-muted:hover {
+  color: #495057;
+  text-decoration: underline;
+}
+
+/* Mobile adjustments */
+@media (max-width: 576px) {
+  .login-container {
+    margin-top: 50px;
+  }
+
+  .login-title {
+    font-size: 22px;
+  }
+
+  .login-description {
+    font-size: 14px;
+  }
+
+  .login-input {
+    font-size: 14px;
+    padding: 8px;
+  }
+
+  .login-button {
+    font-size: 16px;
+    padding: 8px;
+  }
+
+  .form-group {
+    margin-bottom: 15px;
+  }
+
+  .login-form {
+    padding: 20px;
+  }
+}
