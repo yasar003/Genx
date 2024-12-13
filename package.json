@@ -1,7 +1,7 @@
 {
-  "name": "jvlcart",
+  "name": "genx",
   "version": "1.0.0",
-  "description": "ecommerce using MERN stack",
+  "description": "e-commerce website",
   "main": "server.js",
   "scripts": {
     "start": "nodemon backend/server.js",
@@ -9,7 +9,7 @@
     "prod": "set NODE_ENV=production&&nodemon backend/server.js",
     "seeder": "node backend/utils/seeder.js"
   },
-  "author": "JV Logesh",
+  "author": "yasar",
   "license": "ISC",
   "dependencies": {
     "@reduxjs/toolkit": "^2.2.7",
